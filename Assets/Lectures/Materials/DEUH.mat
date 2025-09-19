@@ -30,11 +30,11 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _RimPower: 2.88
+    - _RimPower: 8
     - _RimStrength: 1
     - _UVSET: 0
     m_Colors:
-    - _BaseColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
-    - _RimColor: {r: 0.3533544, g: 0.028034877, b: 0.6603774, a: 1}
+    - _BaseColor: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
+    - _RimColor: {r: 0.10201049, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
