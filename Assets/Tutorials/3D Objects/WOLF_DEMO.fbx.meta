@@ -3,7 +3,17 @@ guid: 1bc3fe245ca53344ca3ab7b14bd473f9
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wolf
+    second: {fileID: 2100000, guid: c11701a40f7a1334a999d8a8beb80d52, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Wolf
+    second: {fileID: 2800000, guid: 49c95d04503ef4a43bfd02a4ed2c31bf, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0

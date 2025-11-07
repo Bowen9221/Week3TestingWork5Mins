@@ -443,7 +443,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector4MaterialSlot",
     "m_ObjectId": "017d8cb337e84896b69f250b50cc32fe",
     "m_Id": 0,
-    "m_DisplayName": "SampleCol",
+    "m_DisplayName": "Color",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -519,10 +519,10 @@
     "m_Guid": {
         "m_GuidSerialized": "3fec453f-cd2c-4151-baee-df13fa8027c3"
     },
-    "m_Name": "SampleCol",
+    "m_Name": "Color",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "SampleCol",
-    "m_DefaultReferenceName": "_SampleCol",
+    "m_RefNameGeneratedByDisplayName": "Color",
+    "m_DefaultReferenceName": "_Color",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -567,10 +567,10 @@
     "m_Guid": {
         "m_GuidSerialized": "0fd8bc58-a297-408e-87e0-de9f856dfd91"
     },
-    "m_Name": "SampleTex",
+    "m_Name": "DiffuseTex",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "SampleTex",
-    "m_DefaultReferenceName": "_SampleTex",
+    "m_RefNameGeneratedByDisplayName": "DiffuseTex",
+    "m_DefaultReferenceName": "_DiffuseTex",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -617,10 +617,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -887.0001220703125,
-            "y": -131.00001525878907,
+            "x": -911.9999389648438,
+            "y": -193.0,
             "width": 126.0,
-            "height": 118.00001525878906
+            "height": 117.99999237060547
         }
     },
     "m_Slots": [
@@ -1074,10 +1074,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1288.0,
-            "y": -170.0000457763672,
+            "x": -1284.0,
+            "y": -169.0,
             "width": 208.0,
-            "height": 434.99993896484377
+            "height": 435.0
         }
     },
     "m_Slots": [
@@ -1200,16 +1200,16 @@
     "m_Name": "",
     "m_ChildObjectList": [
         {
-            "m_Id": "0b5c0fbd1d78477e986e93a1b7738556"
-        },
-        {
             "m_Id": "093a4941fca344e69d45bffabb650bda"
         },
         {
-            "m_Id": "31ad286fe9144feda74c89d826775081"
+            "m_Id": "0b5c0fbd1d78477e986e93a1b7738556"
         },
         {
             "m_Id": "bcb3c5b25e16484c8da8aab14ed3ec4f"
+        },
+        {
+            "m_Id": "31ad286fe9144feda74c89d826775081"
         }
     ]
 }
@@ -1226,10 +1226,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1063.0001220703125,
-            "y": -20.000009536743165,
-            "width": 145.00006103515626,
-            "height": 34.000003814697269
+            "x": -1179.9998779296875,
+            "y": -283.9999694824219,
+            "width": 144.9998779296875,
+            "height": 33.99998474121094
         }
     },
     "m_Slots": [
@@ -1452,7 +1452,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "4da5371e5af8460e92467ab75e00443a",
     "m_Id": 0,
-    "m_DisplayName": "SampleTex",
+    "m_DisplayName": "DiffuseTex",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2137,10 +2137,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1486.0,
-            "y": -258.9999694824219,
+            "x": -1460.9998779296875,
+            "y": -147.99996948242188,
             "width": 153.0,
-            "height": 33.99998474121094
+            "height": 33.999969482421878
         }
     },
     "m_Slots": [
@@ -2244,7 +2244,7 @@
         "convert"
     ],
     "m_Precision": 0,
-    "m_PreviewExpanded": false,
+    "m_PreviewExpanded": true,
     "m_DismissedVersion": 0,
     "m_PreviewMode": 0,
     "m_CustomColors": {

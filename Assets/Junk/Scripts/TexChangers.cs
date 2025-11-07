@@ -5,15 +5,15 @@ using UnityEngine;
 public class TexChangers : MonoBehaviour
 {
 
-    [SerializeField] GameObject Model;
+    public List<GameObject> models = new List<GameObject>();
     public List<Material> materials = new List<Material>();
     Renderer modelRenderer;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        
         modelRenderer = GetComponent<Renderer>();
-
         modelRenderer.material = materials[0];
     }
 
